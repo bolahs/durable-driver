@@ -1,0 +1,13 @@
+[package]
+name = "toasty-driver-durable"
+version = "0.1.0"
+edition = "2024"
+
+[dependencies]
+async-trait = "0.1.92"
+send_wrapper = "0.6.0"
+serde = { version = "1.0.229", features = ["derive"] }
+toasty = "0.11.0"
+toasty-core = "0.11.0"
+toasty-sql = { version = "0.11.0", features = ["jiff"] }
+worker = "0.9.0"
